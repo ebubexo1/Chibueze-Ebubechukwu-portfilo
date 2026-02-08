@@ -40,7 +40,7 @@ export const DATA = {
   ],
   skills: {
     Frontend: ["React","JavaScript", "TypeScript", "Tailwind CSS"],
-    Tools: ["VS Code", "Git", "Vite"],
+    Tools: ["VS Code", "Git", "Github", "Vite"],
     Other: ["UI Design","Performance"]
   },
   socials: [
@@ -51,3 +51,4 @@ export const DATA = {
     { icon: SiInstagram, href: "https://www.instagram.com/chibuezeebubepeter/", name: "Instagram" },
   ]
 };
+
