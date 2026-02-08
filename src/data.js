@@ -22,7 +22,7 @@ export const DATA = {
     philosophy: "Simplicity is the ultimate sophistication.",
     stats: [
       { label: "Years Exp.", value: "01+" },
-      { label: "Projects", value: "20+" }
+      { label: "Projects", value: "10+" }
     ]
   },
   navLinks: ["Home", "About", "Projects", "Skills", "Contact"],
@@ -51,4 +51,5 @@ export const DATA = {
     { icon: SiInstagram, href: "https://www.instagram.com/chibuezeebubepeter/", name: "Instagram" },
   ]
 };
+
 
