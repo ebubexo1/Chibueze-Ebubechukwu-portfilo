@@ -1,6 +1,5 @@
 import { 
   SiJavascript,
-  SiTypescript, 
   SiReact, 
   SiTailwindcss, 
   SiGithub, 
@@ -28,7 +27,6 @@ export const DATA = {
   navLinks: ["Home", "About", "Projects", "Skills", "Contact"],
   technologies: [
     { icon: SiJavascript, name: "JavaScript" },
-    { icon: SiTypescript, name: "TypeScript" },
     { icon: SiReact, name: "React" },
     { icon: SiTailwindcss, name: "Tailwind" },
     { icon: VscCode, name: "VS Code" }
@@ -39,7 +37,7 @@ export const DATA = {
     { title: "Scaffolding", desc: "Ykefolds Integrated Service Limited.", tags: ["JavaScript"], image: "/img3.png", link: "https://scaffolding-22.vercel.app" }
   ],
   skills: {
-    Frontend: ["React","JavaScript", "TypeScript", "Tailwind CSS"],
+    Frontend: ["React","JavaScript", "Tailwind CSS"],
     Tools: ["VS Code", "Git", "Github", "Vite"],
     Other: ["UI Design","Performance"]
   },
@@ -51,5 +49,6 @@ export const DATA = {
     { icon: SiInstagram, href: "https://www.instagram.com/chibuezeebubepeter/", name: "Instagram" },
   ]
 };
+
 
 
