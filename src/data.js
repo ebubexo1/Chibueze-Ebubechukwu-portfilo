@@ -33,8 +33,9 @@ export const DATA = {
   ],
   projects: [
     { title: "Message-me", desc: "A Message-me webpage.", tags: ["React", "Tailwind"], image: "/img1.png", link: "https://message-me.pxxl.click" },
-    { title: "Real-Estate", desc: "Real estate webpage.", tags: ["JavaScript, react, taiwind",], image: "/img2.png", link: "https://real-est.pxxl.click" },
-    { title: "Scaffolding", desc: "Ykefolds Integrated Service Limited.", tags: ["JavaScript"], image: "/img3.png", link: "https://scaffolding-22.vercel.app" }
+    { title: "Real-Estate", desc: "Eagle Altura Properties.", tags: ["JavaScript, react, taiwind",], image: "/img5.png", link: "https://eagle-alutra.vercel.app/" },
+    { title: "Scaffolding", desc: "Ykefolds Integrated Service Limited.", tags: ["JavaScript"], image: "/img3.png", link: "https://scaffolding-22.vercel.app" },
+    { title: "Ecommerce", desc: "Gozymasterpiece.", tags: ["React, Tailwind"], image: "/img4.png", link: "https://gozymasterpiece.vercel.app/" },
   ],
   skills: {
     Frontend: ["React","JavaScript", "Tailwind CSS"],
