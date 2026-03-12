@@ -7,7 +7,6 @@ import {
   SiX,
   SiTiktok,
   SiInstagram,
-  
 } from 'react-icons/si';
 import { VscCode } from 'react-icons/vsc';
 
@@ -16,7 +15,7 @@ export const DATA = {
     name: "Chibueze Ebubechukwu Peter",
     role: "Frontend Developer",
     greeting: "hi! 👋",
-    bio: "A frontend developer crafting intuitive, modern Ui. Blending aesthetics, functionality, and clean code.",
+    bio: "A frontend developer crafting intuitive, modern UI. Blending aesthetics, functionality, and clean code.",
     professionalBio: "Based in the digital ether, I specialize in building high-performance web applications. My philosophy is simple: if it doesn't solve a problem or look beautiful, why build it?",
     philosophy: "Simplicity is the ultimate sophistication.",
     stats: [
@@ -32,15 +31,49 @@ export const DATA = {
     { icon: VscCode, name: "VS Code" }
   ],
   projects: [
-    { title: "Message-me", desc: "A Message-me webpage.", tags: ["React", "Tailwind"], image: "/img2.png", link: "https://message-me.pxxl.click" },
-    { title: "Real-Estate", desc: "Eagle Altura Properties.", tags: ["JavaScript, react, taiwind",], image: "/img5.png", link: "https://eagle-alutra.vercel.app/" },
-    { title: "Scaffolding", desc: "Ykefolds Integrated Service Limited.", tags: ["JavaScript"], image: "/img7.png", link: "https://scaffolding-22.vercel.app" },
-    { title: "Ecommerce", desc: "Gozymasterpiece.", tags: ["React, Tailwind"], image: "/img4.png", link: "https://gozymasterpiece.vercel.app/" },
+    { 
+      title: "Message-me", 
+      desc: "A sleek, real-time messaging interface built for seamless user interaction.", 
+      tags: ["React", "Tailwind", "Firebase"], 
+      image: "/img2.png", 
+      link: "https://message-me.pxxl.click" 
+    },
+    { 
+      title: "Real-Estate", 
+      desc: "Eagle Altura Properties: A modern property listing platform with advanced filtering.", 
+      tags: ["React", "Tailwind", "Framer Motion"], 
+      image: "/img5.png", 
+      link: "https://eagle-alutra.vercel.app/" 
+    },
+    { 
+      title: "Scaffolding", 
+      desc: "Industrial service portal for Ykefolds Integrated Service Limited.", 
+      tags: ["JavaScript", "CSS", "HTML"], 
+      image: "/img7.png", 
+      link: "https://scaffolding-22.vercel.app" 
+    },
+    { 
+      title: "Ecommerce", 
+      desc: "Gozymasterpiece: A high-converting online storefront with a custom UI.", 
+      tags: ["React", "Tailwind", "Redux"], 
+      image: "/img4.png", 
+      link: "https://gozymasterpiece.vercel.app/" 
+    },
+    // ADD NEW PROJECTS HERE FOLLOWING THIS FORMAT:
+    /*
+    { 
+      title: "Project Name", 
+      desc: "Description here.", 
+      tags: ["Tech1", "Tech2"], 
+      image: "/your-new-image.png", 
+      link: "https://your-link.com" 
+    },
+    */
   ],
   skills: {
-    Frontend: ["React","JavaScript", "Tailwind CSS"],
+    Frontend: ["React", "JavaScript", "Tailwind CSS"],
     Tools: ["VS Code", "Git", "Github", "Vite"],
-    Other: ["UI Design","Performance"]
+    Other: ["UI Design", "Performance"]
   },
   socials: [
     { icon: SiGithub, href: "https://github.com/ebubexo1", name: "GitHub" },
@@ -50,6 +83,3 @@ export const DATA = {
     { icon: SiInstagram, href: "https://www.instagram.com/chibuezeebubepeter/", name: "Instagram" },
   ]
 };
-
-
-
