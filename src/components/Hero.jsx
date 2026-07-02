@@ -54,7 +54,7 @@ const Hero = () => {
               <span className="text-violet-600">Ebube</span>
               <span className="text-gray-300 dark:text-zinc-700">.</span>
               <span className="block text-gray-700 dark:text-zinc-300 text-2xl md:text-3xl lg:text-4xl mt-3 font-bold tracking-tight">
-                Frontend Developer
+                Fullstack Developer
               </span>
             </motion.h1>
             
