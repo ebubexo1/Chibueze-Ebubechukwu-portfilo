@@ -47,7 +47,7 @@ export const DATA = {
     { icon: VscCode,       name: "VS Code",    color: "#007ACC" },
   ],
   projects: [
-    { title: "Flowora", desc: "A business SaaS for online bookings, expense tracking, and business reports — helping businesses run smarter and get organised faster.", tags: ["React", "Node.js", "MongoDB", "Paystack"], image: "/img8.png", link: "https://floworax.vercel.app/", featured: true },
+    { title: "Flowora", desc: "A business SaaS for online bookings, expense tracking, and business reports — helping businesses run smarter and get organised faster.", tags: ["React", "Node.js", "MongoDB", "Paystack"], image: "/img8.png", link: "https://floworax.pxxl.run/", featured: true },
     { title: "Message-me", desc: "A sleek, real-time messaging interface built for seamless user interaction.", tags: ["React", "Tailwind", "Firebase"], image: "/img2.png", link: "https://npm-kappa-nine.vercel.app/" },
     { title: "Real-Estate", desc: "Eagle Altura Properties — a modern property listing platform with advanced filtering.", tags: ["React", "Tailwind", "Framer Motion"], image: "/img5.png", link: "https://eagle-alutra.vercel.app/" },
     { title: "Scaffolding", desc: "Industrial service portal for Ykefolds Integrated Service Limited.", tags: ["JavaScript", "CSS", "HTML"], image: "/img7.png", link: "https://scaffolding-22.vercel.app" },
