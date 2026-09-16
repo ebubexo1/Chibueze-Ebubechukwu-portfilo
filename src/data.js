@@ -21,15 +21,15 @@ export const DATA = {
       { label: "Projects", value: "10+" },
       { label: "Hackathons", value: "Several" },
     ],
-    highlights: [
+   highlights: [
+      { emoji: "🚀", title: "Startup Founder", desc: "Co-founded Floworax — building a business management SaaS helping African businesses with bookings, expense tracking and payments." },
       { emoji: "🏆", title: "Hackathon Veteran", desc: "Participated in several hackathons — shipping full production-ready products under pressure and tight deadlines." },
-      { emoji: "🌍", title: "Nigerian Market Focus", desc: "Building products tailored for African fintech and commerce — Paystack integration, booking systems, expense tracking." },
       { emoji: "🤝", title: "Open Source Contributor", desc: "Backend contributor to Afrisocial — a social media platform built for African communities." },
     ],
-    timeline: [
+   timeline: [
       { year: "2024", title: "Started Building", desc: "Began building real production websites and web apps with React, learning component architecture and responsive design from scratch." },
       { year: "2025", title: "Full-Stack Expansion", desc: "Added Node.js, Express, and MongoDB to the toolkit — shipped first full-stack web apps with REST APIs, Auth, and CI/CD pipelines." },
-      { year: "2026", title: "Hackathons & Collaboration", desc: "Participated in several hackathons, built Flowora (booking & expense SaaS), contributed backend fixes to Afrisocial, scaffolded multi-tenant SaaS architecture." }
+      { year: "2026", title: "Startup & Hackathons", desc: "Co-founded Floworax (floworax.com.ng), participated in several hackathons, contributed to Afrisocial software improvement, and scaffolded multi-tenant SaaS architecture." }
     ]
   },
   navLinks: ["Home", "About", "Projects", "Skills", "Contact"],
@@ -47,7 +47,7 @@ export const DATA = {
     { icon: VscCode,       name: "VS Code",    color: "#007ACC" },
   ],
   projects: [
-    { title: "Flowora", desc: "A business SaaS for online bookings, expense tracking, and business reports — helping businesses run smarter and get organised faster.", tags: ["React", "Node.js", "MongoDB", "Paystack"], image: "/img8.png", link: "https://floworax.vercel.app/", featured: true },
+    { title: "Flowora", desc: "A business SaaS for online bookings, expense tracking, and business reports — helping businesses run smarter and get organised faster.", tags: ["React", "Node.js", "MongoDB", "Paystack"], image: "/img8.png", link: "https://floworax.com.ng/", featured: true },
     { title: "Message-me", desc: "A sleek, real-time messaging interface built for seamless user interaction.", tags: ["React", "Tailwind", "Firebase"], image: "/img2.png", link: "https://npm-kappa-nine.vercel.app/" },
     { title: "Real-Estate", desc: "Eagle Altura Properties — a modern property listing platform with advanced filtering.", tags: ["React", "Tailwind", "Framer Motion"], image: "/img5.png", link: "https://eagle-alutra.vercel.app/" },
     { title: "Scaffolding", desc: "Industrial service portal for Ykefolds Integrated Service Limited.", tags: ["JavaScript", "CSS", "HTML"], image: "/img7.png", link: "https://scaffolding-22.vercel.app" },
