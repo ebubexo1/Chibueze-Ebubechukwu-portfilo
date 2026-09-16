@@ -22,7 +22,7 @@ export const DATA = {
       { label: "Hackathons", value: "Several" },
     ],
    highlights: [
-      { emoji: "🚀", title: "Startup Founder", desc: "Co-founded Floworax — building a business management SaaS helping African businesses with bookings, expense tracking and payments." },
+      { emoji: "🚀", title: "Startup Founder", desc: "founded Floworax — building a business management SaaS helping African businesses with bookings, expense tracking and payments." },
       { emoji: "🏆", title: "Hackathon Veteran", desc: "Participated in several hackathons — shipping full production-ready products under pressure and tight deadlines." },
       { emoji: "🤝", title: "Open Source Contributor", desc: "Backend contributor to Afrisocial — a social media platform built for African communities." },
     ],
