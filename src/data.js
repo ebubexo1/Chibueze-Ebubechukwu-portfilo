@@ -48,6 +48,8 @@ export const DATA = {
   ],
   projects: [
     { title: "Flowora", desc: "A business SaaS for online bookings, expense tracking, and business reports — helping businesses run smarter and get organised faster.", tags: ["React", "Node.js", "MongoDB", "Paystack"], image: "/img8.png", link: "https://floworax.com.ng/", featured: true },
+    { title: "Batch", desc: "A group-buying platform for small market traders — pooling orders on the same goods so sellers unlock bulk pricing instead of buying alone at a markup.", tags: ["React", "Node.js", "MongoDB"], image: "/img9.jpg", link: "https://batch-three-rosy.vercel.app/" },
+    { title: "Afrisocial", desc: "Backend contributor on Afrisocial — a social platform built for African creators, entrepreneurs, and communities to share and connect across the continent.", tags: ["Open Source", "Backend", "Social Platform"], image: "/img10.png", link: "https://www.afrisocial.com.ng/" },
     { title: "Message-me", desc: "A sleek, real-time messaging interface built for seamless user interaction.", tags: ["React", "Tailwind", "Firebase"], image: "/img2.png", link: "https://npm-kappa-nine.vercel.app/" },
     { title: "Real-Estate", desc: "Eagle Altura Properties — a modern property listing platform with advanced filtering.", tags: ["React", "Tailwind", "Framer Motion"], image: "/img5.png", link: "https://eagle-alutra.vercel.app/" },
     { title: "Scaffolding", desc: "Industrial service portal for Ykefolds Integrated Service Limited.", tags: ["JavaScript", "CSS", "HTML"], image: "/img7.png", link: "https://scaffolding-22.vercel.app" },
