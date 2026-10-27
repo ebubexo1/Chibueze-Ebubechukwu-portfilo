@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Moon, Sun, Home, User, Briefcase, Wrench, Mail } from 'lucide-react';
+import { Menu, X, Moon, Sun, Home, User, Briefcase, Wrench, Mail, Camera } from 'lucide-react';
 import { DATA } from '../data';
 
-const navIcons = { Home, About: User, Projects: Briefcase, Skills: Wrench, Contact: Mail };
+const navIcons = { Home, About: User, Projects: Briefcase, Skills: Wrench, Gallery: Camera, Contact: Mail };
 const pathFor = (link) => (link === 'Home' ? '/' : `/${link.toLowerCase()}`);
 
 const Navbar = () => {

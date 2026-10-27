@@ -32,7 +32,7 @@ export const DATA = {
       { year: "2026", title: "Startup & Hackathons", desc: "Co-founded Floworax (floworax.com.ng), participated in several hackathons, contributed to Afrisocial software improvement, and scaffolded multi-tenant SaaS architecture." }
     ]
   },
-  navLinks: ["Home", "About", "Projects", "Skills", "Contact"],
+  navLinks: ["Home", "About", "Projects", "Skills", "Gallery", "Contact"],
   technologies: [
     { icon: SiHtml5,       name: "HTML",       color: "#E34F26" },
     { icon: SiCss3,        name: "CSS",        color: "#1572B6" },
@@ -54,6 +54,13 @@ export const DATA = {
     { title: "Real-Estate", desc: "Eagle Altura Properties — a modern property listing platform with advanced filtering.", tags: ["React", "Tailwind", "Framer Motion"], image: "/img5.png", link: "https://eagle-alutra.vercel.app/" },
     { title: "Scaffolding", desc: "Industrial service portal for Ykefolds Integrated Service Limited.", tags: ["JavaScript", "CSS", "HTML"], image: "/img7.png", link: "https://scaffolding-22.vercel.app" },
     { title: "Ecommerce", desc: "Gozymasterpiece — a high-converting online storefront with a custom UI.", tags: ["React", "Tailwind", "Redux"], image: "/img4.png", link: "https://gozymasterpiece.vercel.app/" },
+  ],
+  gallery: [
+    { src: "/gallery-1.jpg", alt: "Portrait in a black tracksuit and white cap, seated on a red sofa" },
+    { src: "/gallery-2.jpg", alt: "Seated in a black tracksuit and cap, looking at a phone" },
+    { src: "/gallery-3.jpg", alt: "Close-up in a black jacket and white cap with a yellow watch" },
+    { src: "/gallery-4.jpg", alt: "Relaxing on a red armchair with feet up on the table" },
+    { src: "/gallery-5.jpg", alt: "Striking a pose in a living room with a game controller" },
   ],
   skills: {
     Frontend: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Framer Motion"],
